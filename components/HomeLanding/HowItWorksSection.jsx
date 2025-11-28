@@ -18,10 +18,10 @@ const HowItWorksSection = () => (
   <section className="py-24 bg-[#181818] text-[#E1E1E1] px-4">
     <div className="max-w-7xl mx-auto">
       <h3 className="text-sm font-semibold text-[#9B51E0] uppercase tracking-widest text-center mb-2">
-        Onboarding
+        ONBOARDING – 3 SIMPLE STEPS
       </h3>
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-        Setup in Three Simple Steps
+        Get Started in Under an Hour
       </h2>
 
       <div className="relative grid lg:grid-cols-3 gap-12">
@@ -32,20 +32,20 @@ const HowItWorksSection = () => (
         <StepCard
           icon={FaDownload}
           step={1}
-          title="Install Widget on Your Site"
-          description="A quick, single line of JavaScript installs our high-performance widget onto your web application."
+          title="Add the Widget"
+          description="Copy–paste one line of JavaScript into your website or web app. That’s it — your chat is live."
         />
         <StepCard
           icon={FaPencilRuler}
           step={2}
-          title="Create Your Auto Flows"
-          description="Visually design automation flows for common questions and define your AI rules."
+          title="Create Your First Flow"
+          description="Set up answers for the 5–10 most common questions your team gets every day. (We guide you with templates.)"
         />
         <StepCard
           icon={FaUsersCog}
           step={3}
-          title="AI + Agents Take Over"
-          description="The AI handles complexity, routing seamlessly to a human agent only when truly necessary."
+          title="Invite Your Team"
+          description="Add your agents, assign roles, and you’re ready. They’ll see all new conversations in one simple inbox."
         />
       </div>
     </div>

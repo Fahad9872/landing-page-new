@@ -13,7 +13,7 @@ const FlowBuilderSection = () => (
           No-Code Automation
         </h3>
         <h2 className="text-4xl md:text-5xl font-bold mb-8">
-          Visually Design Complex Automation Flows
+          Build Flows Without Bugging Your Dev Team
         </h2>
         <p className="text-xl text-[#E1E1E1]/90 mb-8">
           Our node-based editor puts the power of complex logic into the hands
@@ -26,24 +26,41 @@ const FlowBuilderSection = () => (
               className="text-[#BB86FC] flex-shrink-0 mt-1"
               size={24}
             />
-            **Intuitive Node Editor:** Drag, drop, and connect logic for
-            auto-responses and actions.
+            <div>
+              <p className="font-bold">Simple Visual Editor</p>
+              <p>
+                Drag and connect blocks like “Ask Question”, “Send Reply”,
+                “Create Ticket”, “Assign to Agent”.
+              </p>
+            </div>
           </div>
           <div className="flex items-start gap-4 text-lg">
             <FaCheckCircle
               className="text-[#BB86FC] flex-shrink-0 mt-1"
               size={24}
             />
-            **Triggers & Conditions:** Define precise customer contexts to
-            launch specific flows.
+            <div>
+              <p className="font-bold">Triggers & Conditions</p>
+              <p>Create basic conditions like:</p>
+              <ul className="list-disc list-inside space-y-1 mb-3 text-left">
+                <li>“If user is new”</li>
+                <li>“If country is X”</li>
+                <li>“If VIP tag is present”</li>
+              </ul>
+            </div>
           </div>
           <div className="flex items-start gap-4 text-lg">
             <FaExchangeAlt
               className="text-[#BB86FC] flex-shrink-0 mt-1"
               size={24}
             />
-            **Seamless Agent Path:** Easily build in a path that smoothly hands
-            the user to a human agent.
+            <div>
+              <p className="font-bold">Human Handoff Built-In</p>
+              <p>
+                If the automation gets stuck, it hands over to a human with the
+                entire context visible — no cold transfers.
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -9,13 +9,14 @@ const HeroSection = () => (
   <section className="relative min-h-screen pt-20 pb-16 bg-[#111111] text-[#E1E1E1] flex flex-col items-center justify-center px-4 overflow-hidden">
     <div className="max-w-[1400px] text-center z-10">
       <h1 className="text-6xl sm:text-7xl lg:text-8xl font-black leading-tight tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#BB86FC] to-[#9B51E0]">
-        Agentic AI Support.
+        Customer Support.
         <br />
-        Built for <span className="text-[#E1E1E1]">Scale.</span>
+        Finally <span className="text-[#E1E1E1]">Simple.</span>
       </h1>
       <p className="text-xl md:text-2xl mb-12 text-[#E1E1E1]/90 max-w-3xl mx-auto">
-        The **next-gen system** that resolves 80% of issues automatically,
-        freeing your team to focus on complex resolutions.
+        One clean inbox for all your customer chats — with smart automation that
+        <span className="font-bold"> just works</span>. No complex setup. No
+        100-button dashboard.
       </p>
 
       {/* Email Signup Form & CTA */}
@@ -52,9 +53,9 @@ const HeroSection = () => (
       <div className="mt-12 flex justify-center items-center flex-wrap gap-x-8 gap-y-4 text-sm font-semibold text-[#525252] tracking-wider uppercase">
         <p className="flex items-center gap-2">✅ Beta Q1 2025</p>
         <p className="flex items-center gap-2">
-          <AiFillStar className="text-[#BB86FC]" /> Early Tester Program
+          <AiFillStar className="text-[#BB86FC]" /> Built for busy teams
         </p>
-        <p className="flex items-center gap-2">🔒 Secure & Compliant</p>
+        <p className="flex items-center gap-2">🔒 Secure & GDPR-ready</p>
       </div>
     </div>
   </section>

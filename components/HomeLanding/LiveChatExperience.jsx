@@ -18,7 +18,7 @@ const LiveChatExperience = () => (
           Agent Dashboard
         </h3>
         <h2 className="text-4xl md:text-5xl font-bold mb-8">
-          The Agent Experience, Reimagined.
+          A Support Inbox Your Team Won’t Hate
         </h2>
         <p className="text-xl text-[#E1E1E1]/90 mb-8">
           Stop using clunky tools. Our unified dashboard is cleaner, faster, and
@@ -26,28 +26,51 @@ const LiveChatExperience = () => (
         </p>
 
         <div className="space-y-4">
-          <div className="flex items-center gap-4 text-lg">
+          <div className="flex items-start gap-4 text-lg">
             <FaUserCircle className="text-[#BB86FC] flex-shrink-0" size={24} />
-            **Customer Profile Sidebar:** Instant access to customer history,
-            status, and tickets.
+            <div>
+              <p className="font-bold">Customer Snapshot</p>
+              <p>
+                On the right, your team sees who they’re talking to: basic
+                details, last conversations, and quick notes.
+              </p>
+            </div>
           </div>
-          <div className="flex items-center gap-4 text-lg">
+          <div className="flex items-start gap-4 text-lg">
             <FaClock className="text-[#BB86FC] flex-shrink-0" size={24} />
-            **Real-Time Indicators:** See what the customer or AI is typing
-            before it's sent.
+            <div>
+              <p className="font-bold">Real-Time View</p>
+              <p>
+                {" "}
+                See messages as they’re being typed (by users or by the
+                auto-responder) so your team can think ahead.
+              </p>
+            </div>
           </div>
-          <div className="flex items-center gap-4 text-lg">
+          <div className="flex items-start gap-4 text-lg">
             <FaClipboardList
               className="text-[#BB86FC] flex-shrink-0"
               size={24}
             />
-            **Unified Timeline View:** Every interaction—chat, flow, email—in
-            one place.
+            <div>
+              <p className="font-bold">Saved Replies & Suggestions</p>
+              <p>
+                {" "}
+                Agents can use shared templates or AI-suggested replies — no
+                more typing the same thing 50 times a day.
+              </p>
+            </div>
           </div>
-          <div className="flex items-center gap-4 text-lg">
+          <div className="flex items-start gap-4 text-lg">
             <FaReplyAll className="text-[#BB86FC] flex-shrink-0" size={24} />
-            **Smart Canned Responses:** AI-suggested templates based on the
-            conversation context.
+            <div>
+              <p className="font-bold">Everything in One Place</p>
+              <p>
+                {" "}
+                No hopping between tabs for chat, ticket history, and notes.
+                It’s all in one screen.
+              </p>
+            </div>
           </div>
         </div>
       </div>
